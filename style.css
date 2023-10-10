@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bolder;
+   font-family: sans-serif;
+}
+
+#background-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+  width: 100%;
+height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+h1{
+color: indigo;
+margin-top: 0;
+
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(240, 46, 170, 0.4);
+    padding: 200px;
+    border-radius: 15px;
+    width: 45%;
+    min-height: fit-content;
+    text-align: center;
+    position: relative;
+
+ 
+}
+
+h1{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+h1, .container {
+    letter-spacing: 7px; /* Adjust the letter-spacing value to make the text wider */
+}
+
+p.one{
+    font-weight: bold;
+    color: rgb(139, 0, 109);
+}
+
+p.two { 
+    font-weight: lighter; 
+    color: rgb(123, 0, 139);
+} 
+  
+p.three { 
+    font-weight: 1000; 
+    color: rgb(123, 0, 139);
+} 
+  
+p.four { 
+    font-weight: initial; 
+    color: rgb(139, 0, 139);
+} 
+
+p.five{
+
+    font-weight: initial; 
+    color: rgb(139, 0, 139);
+
+}
